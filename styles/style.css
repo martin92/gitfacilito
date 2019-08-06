@@ -1,12 +1,8 @@
-#btn {
-	font-style: bold;
-	transition: 0.4s;
-}
-
-#btn:hover {
-	transform: scale(1.2);
-}
-
-.contenedor {
-	margin: 10px 0px;
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	background-color: #EEEEEE;
+	background-image: url('https://ep01.epimg.net/elpais/imagenes/2018/03/01/album/1519910473_492871_1519910821_noticia_normal.jpg');
+	background-size: cover;
 }
