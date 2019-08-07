@@ -1,18 +1,55 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
 body {
 	background-color: #EEEEEE;
-	background-image: url('https://ep01.epimg.net/elpais/imagenes/2018/03/01/album/1519910473_492871_1519910821_noticia_normal.jpg');
-	background-size: cover;
 }
 
 .container {
+	display: flex;
+	justify-content: center;
 	width: 100%;
 	height: 100%;
-	margin: 0px;
+	background-image: url('https://ep01.epimg.net/elpais/imagenes/2018/03/01/album/1519910473_492871_1519910821_noticia_normal.jpg');
+	background-size: cover;
+	z-index: -1;
 }
 
 .contenedor-profile {
-	width: 500px;
-	height: 500px;
-	margin: auto;
+	width: 1100px;
+	height: 100%;
 	text-align: center;
+	margin: auto;
+}
+
+.profile {
+	margin: auto;
+	margin-top: 150px;
+	width:100%;
+}
+
+.profile-head {
+	margin: 10px 0;
+}
+
+.profile-body {
+	color: white;
+	font-family: calibri;
+	font-size: 50px;
+	font-weight: bold;
+	font-
+}
+
+#pic {
+	border: 3px solid white;
+	border-radius: 50%;
+}
+
+#name {
+	color: white;
+	font-size: 45px;
+	font-family: calibri;
+	margin: 5px;
 }
